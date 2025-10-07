@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        The Sushi Restaurant Press Kit
+    </title>
+    <style>
+        body {
+            background: #242729;
+            color: #F9F9F9;
+        }
+
+        text {
+            color: #F9F9F9;
+        }
+
+        .sushi-restaurant-store-capsule-header {
+            width: 374px;
+            height: 448px;
+            display: block;
+            margin-left: 200px;
+        }
+
+        .image-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+        .small-title-column {
+            display: flex;
+            gap: 20px;
+        }
+
+        .small-title-block {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .medium-title {
+            font-size: 40px;
+        }
+
+        .small-title {
+            font-size: 25px;
+        }
+
+        .small-text {
+            font-size: 20px;
+        }
+
+        ul {
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+        li.small-text {
+            list-style-position: inside;
+        }
+
+        .li-indent {
+            display: block;
+            padding-left: 1em;
+        }
+
+        .links {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            color: #84ACCE;
+        }
+
+        .link-icon {
+            width: 15px;
+            height: 15px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .linktree {
+            display: inline-flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 20px;
+            color: #84ACCE;
+        }
+
+        .steam-widget {
+            width: 646px;
+            height: 190px;
+            border: none;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .download-video-button {
+            border: none;
+            outline: none;
+            padding: 12px 25px 12px 25px;
+            border-radius: 20px;
+            font-size: 30px;
+            background-color: #84ACCE;
+            color: #F9F9F9;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .download-video-file-icon {
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+        }
+
+        .download-video-button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video {
+            width: 854;
+            height: 480;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .download-all-assets-button {
+            display: inline-flex;
+            width: fit-content;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            font-size: 20px;
+            background-color: #84ACCE;
+            color: #F9F9F9;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-sizing: border-box;
+        }
+
+        .download-assets-button {
+            border: none;
+            outline: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            font-size: 20px;
+            background-color: #84ACCE;
+            color: #F9F9F9;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .download-assets-file-icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        .download-assets-button-container {
+            margin-bottom: 20px;
+        }
+
+        .asset-title-and-button-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .screenshots-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+            gap: 10px;
+
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .screenshots-container img {
+            width: 100%;
+            max-width: 1280px;
+            height: auto;
+            display: block;
+        }
+
+        .logos-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: center;
+            gap: 10px;
+
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .logos-container img {
+            width: 100%;
+            max-width: 1280px;
+            height: auto;
+            display: block;
+        }
+
+        .steam-capsule-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: start;
+            gap: 10px;
+
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .steam-capsule-container img {
+            width: 100%;
+            max-width: 720px;
+            height: auto;
+            display: block;
+        }
+
+        .templates-container {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            justify-content: start;
+            gap: 10px;
+
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .templates-container img {
+            width: 100%;
+            max-width: 480px;
+            height: auto;
+            display: block;
+        }
+
+        .developer-container {
+            display: flex;
+            gap: 200px;
+        }
+
+        .developer-button {
+            border: none;
+            outline: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            font-size: 30px;
+            background-color: #84ACCE;
+            color: #F9F9F9;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<br>
+<h1 style="text-align: center;">
+    The Sushi Restaurant
+</h1>
+
+<div class="image-container">
+    <img src="SushiRestaurantStoreCapsuleVertical.png" class="sushi-restaurant-store-capsule-header">
+    <div class="small-title-column">
+        <div class="small-title-block">
+            <b class="small-title">
+                Fact Sheet
+            </b>
+            <p class="small-text" alt="fact-sheet-text">
+                <br><b>Release Date:</b> Coming Soon
+                <br><b>Developer:</b> <a href="https://linktr.ee/LudiasGames" class="linktree" target="_blank"
+                    rel="noopener noreferrer"> LudiasGames </a>
+                <br><b>Platform:</b> PC (Steam)
+            </p>
+            <b class="small-title">
+                Key Features
+            </b>
+            <ul>
+                <li class="small-text">Prepare sushi and unlock new recipes every day.</li>
+                <li class="small-text">Hire a waitress that works for you. </li>
+                <li class="small-text">Each day, something is making the atmosphere grow creepier.
+                    <span class="li-indent"> Can you figure out what? </span>
+                </li>
+            </ul>
+
+            <p>
+                <a href="https://linktr.ee/LudiasGames" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="linktree.svg" class="link-icon">Linktree</a>
+                <a href="https://x.com/ludiasgames" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="twitter.svg" class="link-icon">Twitter</a>
+                <a href="https://www.youtube.com/@LudiasGames" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="youtube.svg" class="link-icon">Youtube</a>
+                <a href="https://www.tiktok.com/@ludiasgames" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="tiktok.svg" class="link-icon">Tiktok</a>
+                <br><a href="https://www.instagram.com/ludiasgames" class="links" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="instagram.svg" class="link-icon">Instagram</a>
+                <a href="https://bsky.app/profile/ludiasgames.com" class="links" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="bluesky.svg" class="link-icon">Bluesky</a>
+                <a href="https://www.threads.com/@ludiasgames" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="threads.svg" class="link-icon">Threads</a>
+                <a href="mailto:ludias@ludiasgames.com" class="links" target="_blank" rel="noopener noreferrer">
+                    <img src="email.svg" class="link-icon">Email</a>
+            </p>
+        </div>
+
+        <div class=" small-title-block">
+            <b class="small-title">
+                About This Game
+            </b>
+            <p class="small-text">
+                The Sushi Restaurant is a cozy horror
+                <br>game where you prepare sushi
+                <br>and unlock new recipes every day.
+                <br>But something is making the atmosphere
+                <br>grow creepier and you need to figure out what.
+            </p>
+        </div>
+    </div>
+</div>
+
+<iframe class="steam-widget"
+    src="https://store.steampowered.com/widget/500/?utm_source=homepage&utm_campaign=mycampaign" frameborder="0">
+</iframe>
+
+<!-- this is to override the utm source if I want to -->
+<a href="https://store.steampowered.com/app/500/?utm_source=homepage&utm_campaign=mycampaign"></a>
+
+<div class="download-video-button-container">
+    <p>
+        <button class="download-video-button" onclick="downloadVideo()">
+            <img src="download-file-icon.svg" class="download-video-file-icon">
+            Download Video
+        </button>
+    </p>
+</div>
+
+<div class="video-container">
+    <iframe class="video" width="854" height="480"
+        src="https://www.youtube-nocookie.com/embed/O2W0N3uKXmo?si=DJIFxj9rjg4eL5Ll" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="asset-title-and-button-container">
+    <p>
+        <b class="medium-title">Download all Assets</b>
+    </p>
+    <div>
+        <a href="All Assets.zip" download class="download-all-assets-button">
+            <img src="download-file-icon.svg" class="download-assets-file-icon">
+            Download All Assets As Zip
+        </a>
+    </div>
+    <p>
+        <b class="medium-title">Screenshots</b>
+    </p>
+    <div class="download-assets-button-container">
+        <p>
+            <button class="download-assets-button">
+                <img src="download-file-icon.svg" class="download-assets-file-icon">
+                Download Screenshots As Zip
+            </button>
+        </p>
+    </div>
+    <div class="screenshots-container">
+        <img src="Screenshot_1.png" class="screenshot">
+        <img src="Screenshot_2.png" class="screenshot">
+        <img src="Screenshot_3.png" class="screenshot">
+        <img src="Screenshot_4.png" class="screenshot">
+        <img src="Screenshot_5.png" class="screenshot">
+    </div>
+    <p>
+        <b class="medium-title">Logos</b>
+    </p>
+    <div class="download-assets-button-container">
+        <p>
+            <button class="download-assets-button">
+                <img src="download-file-icon.svg" class="download-assets-file-icon">
+                Download Logos As Zip
+            </button>
+        </p>
+    </div>
+    <div class="logos-container">
+        <img src="LogoDark.png" class="logo">
+        <img src="LogoLight.png" class="logo">
+    </div>
+    <p>
+        <b class="medium-title">Steam Capsule</b>
+    </p>
+    <div class="download-assets-button-container">
+        <p>
+            <button class="download-assets-button">
+                <img src="download-file-icon.svg" class="download-assets-file-icon">
+                Download Steam Capsule As Zip
+            </button>
+        </p>
+    </div>
+    <div class="steam-capsule-container">
+        <img src="SushiRestaurantStoreCapsuleHeader.png" class="steam-capsule">
+    </div>
+    <p>
+        <b class="medium-title">Font (Stick)</b>
+    </p>
+    <div class="download-assets-button-container">
+        <p>
+            <button class="download-assets-button">
+                <img src="download-file-icon.svg" class="download-assets-file-icon">
+                Font (Stick) Open Font License
+            </button>
+        </p>
+    </div>
+    <p>
+        <b class="medium-title">Templates</b>
+    </p>
+    <div class="download-assets-button-container">
+        <p>
+            <button class="download-assets-button">
+                <img src="download-file-icon.svg" class="download-assets-file-icon">
+                Download Templates As Zip
+            </button>
+        </p>
+    </div>
+    <div class="templates-container">
+        <img src="Template_1.png" class="template">
+    </div>
+    <p>
+        <b class="medium-title">Developer</b>
+    </p>
+    <div class="developer-container">
+        <p>
+            <button class="developer-button">
+                Ludias Games
+            </button>
+            <button class="developer-button">
+                Email
+            </button>
+        </p>
+    </div>
+    <p>
+    <div class="small-text">
+        All images, videos, and other media assets on this Press Kit page are free to use for press coverage, articles,
+        blogs, videos, and social media content related to The Sushi Restaurant.
+        </p>
+    </div>
+    </body>
+
+</html>
+
+<script>
+    function downloadVideo() {
+        const link = document.createElement('a');
+        link.href = 'The Sushi Restaurant Announcement Trailer.mp4';
+        link.download = 'The Sushi Restaurant Announcement Trailer.mp4';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+</script>
