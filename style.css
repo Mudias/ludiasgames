@@ -1,0 +1,393 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body {
+    background: #242729;
+    color: #F9F9F9;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #242729;
+}
+
+nav {
+    width: 960px;
+
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.lang-menu {
+    margin-top: 25px;
+    position: relative;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    background-color: #242729;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+.lang-menu ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    width: 25px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.lang-menu ul li a:hover {
+    background-color: #43484b;
+}
+
+.lang-menu ul li a::before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
+
+}
+
+.us:before {
+    background-image: url(https://flagcdn.com/32x24/us.png);
+}
+
+.jp:before {
+    background-image: url(https://flagcdn.com/32x24/jp.png);
+}
+
+.cn:before {
+    background-image: url(https://flagcdn.com/32x24/cn.png);
+}
+
+.kr:before {
+    background-image: url(https://flagcdn.com/32x24/kr.png);
+}
+
+.tr:before {
+    background-image: url(https://flagcdn.com/32x24/tr.png);
+}
+
+.de:before {
+    background-image: url(https://flagcdn.com/32x24/de.png);
+}
+
+.selected-lang {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected-lang::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 24px;
+    background-image: url(https://flagcdn.com/32x24/us.png);
+}
+
+text {
+    color: #F9F9F9;
+}
+
+.steam-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.sushi-restaurant-store-capsule-header {
+    width: 374px;
+    height: 448px;
+    display: block;
+    margin-left: 200px;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.small-title-column {
+    display: flex;
+    gap: 20px;
+}
+
+.small-title-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.medium-title {
+    font-size: 40px;
+}
+
+.small-title {
+    font-size: 25px;
+}
+
+.small-text {
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li{
+    list-style-type: disc;
+}
+
+li.small-text {
+    list-style-position: outside;
+}
+
+.li-indent {
+    display: block;
+    padding-left: 1em;
+}
+
+.links {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #84ACCE;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.link-icon {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.linktree {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #84ACCE;
+}
+
+.linktree:hover{
+    text-decoration: underline;
+}
+
+.steam-widget {
+    width: 646px;
+    height: 190px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
+
+.download-video-button {
+    border: none;
+    outline: none;
+    padding: 12px 25px 12px 25px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #84ACCE;
+    color: #F9F9F9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download-video-button:hover{
+    text-decoration: underline;
+}
+
+.download-video-file-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.download-video-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    width: 854;
+    height: 480;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-all-assets-button {
+    display: inline-flex;
+    width: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #84ACCE;
+    color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.download-all-assets-button:hover{
+    text-decoration: underline;
+}
+
+.download-assets-button {
+    border: none;
+    width: fit-content;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #84ACCE;
+    color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download-assets-button:hover{
+    text-decoration: underline;
+}
+
+.download-assets-file-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.download-assets-button-container {
+    margin-bottom: 20px;
+}
+
+.asset-title-and-button-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.screenshots-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 10px;
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.screenshots-container img {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    display: block;
+}
+
+.logos-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 10px;
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logos-container img {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    display: block;
+}
+
+.steam-capsule-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    gap: 10px;
+
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.steam-capsule-container img {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    display: block;
+}
+
+.templates-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    gap: 10px;
+
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.templates-container img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    display: block;
+}
+
+.developer-container {
+    display: flex;
+    gap: 10px;
+}
+
+.developer-button {
+    border: none;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #84ACCE;
+    color: #F9F9F9;
+}
+
+.developer-button:hover{
+    text-decoration: underline;
+}
