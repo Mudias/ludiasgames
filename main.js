@@ -17,7 +17,8 @@ const translations = {
             <ul>
             <li class="small-text">Prepare sushi and unlock new recipes every day.</li>
             <li class="small-text">Hire a waitress that works for you.</li>
-            <li class="small-text">Each day, something is making the atmosphere grow creepier. Can you figure out what?</li>
+            <li class="small-text">Each day, something is making the atmosphere grow creepier.
+            <br>Can you figure out what?</li>
             <ul>
             `,
     },
