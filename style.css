@@ -31,7 +31,7 @@ nav {
     margin: 0;
     padding: 0;
     background-color: #242729;
-    border: 1px solid #f8f8f8;
+    border: 1px solid #F9F9F9;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     display: none;
@@ -52,13 +52,18 @@ nav {
 }
 
 .lang-menu ul li a {
-    width: 25px;
     display: block;
-    padding: 5px 10px;
+    width: 32px;
+    height: 24px;
+    padding: 0;
+    margin: 5px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .lang-menu ul li a:hover {
-    background-color: #43484b;
+    outline: 2px solid #009dff;
+    border-radius: 4px;
 }
 
 .lang-menu ul li a::before {
@@ -94,6 +99,25 @@ nav {
     background-image: url(https://flagcdn.com/32x24/de.png);
 }
 
+.lang-options a.us {
+  background-image: url(https://flagcdn.com/32x24/us.png);
+}
+.lang-options a.jp {
+  background-image: url(https://flagcdn.com/32x24/jp.png);
+}
+.lang-options a.cn {
+  background-image: url(https://flagcdn.com/32x24/cn.png);
+}
+.lang-options a.kr {
+  background-image: url(https://flagcdn.com/32x24/kr.png);
+}
+.lang-options a.tr {
+  background-image: url(https://flagcdn.com/32x24/tr.png);
+}
+.lang-options a.de {
+  background-image: url(https://flagcdn.com/32x24/de.png);
+}
+
 .selected-lang {
     cursor: pointer;
     display: flex;
@@ -106,6 +130,14 @@ nav {
     width: 32px;
     height: 24px;
     background-image: url(https://flagcdn.com/32x24/us.png);
+}
+
+.lang-options a{
+    display: block;
+    width: 32px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 text {
@@ -157,7 +189,7 @@ ul {
     margin-left: 0;
 }
 
-li{
+li {
     list-style-type: disc;
 }
 
@@ -177,10 +209,10 @@ li.small-text {
     font-size: 20px;
     margin-right: 10px;
     margin-bottom: 10px;
-    color: #84ACCE;
+    color: #009dff;
 }
 
-.links:hover{
+.links:hover {
     text-decoration: underline;
 }
 
@@ -196,10 +228,10 @@ li.small-text {
     align-items: center;
     text-decoration: none;
     font-size: 20px;
-    color: #84ACCE;
+    color: #009dff;
 }
 
-.linktree:hover{
+.linktree:hover {
     text-decoration: underline;
 }
 
@@ -217,13 +249,13 @@ li.small-text {
     padding: 12px 25px 12px 25px;
     border-radius: 20px;
     font-size: 30px;
-    background-color: #84ACCE;
+    background-color: #009dff;
     color: #F9F9F9;
     margin-left: auto;
     margin-right: auto;
 }
 
-.download-video-button:hover{
+.download-video-button:hover {
     text-decoration: underline;
 }
 
@@ -260,7 +292,7 @@ li.small-text {
     padding: 12px 25px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: #84ACCE;
+    background-color: #009dff;
     color: #F9F9F9;
     display: flex;
     align-items: center;
@@ -268,7 +300,7 @@ li.small-text {
     box-sizing: border-box;
 }
 
-.download-all-assets-button:hover{
+.download-all-assets-button:hover {
     text-decoration: underline;
 }
 
@@ -279,14 +311,14 @@ li.small-text {
     padding: 12px 25px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: #84ACCE;
+    background-color: #009dff;
     color: #F9F9F9;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.download-assets-button:hover{
+.download-assets-button:hover {
     text-decoration: underline;
 }
 
@@ -384,10 +416,10 @@ li.small-text {
     padding: 12px 25px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: #84ACCE;
+    background-color: #009dff;
     color: #F9F9F9;
 }
 
-.developer-button:hover{
+.developer-button:hover {
     text-decoration: underline;
 }
