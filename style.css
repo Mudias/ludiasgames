@@ -70,27 +70,27 @@ nav {
 
 }
 
-.us:before {
+.selected-lang.us::before {
     background-image: url(https://flagcdn.com/32x24/us.png);
 }
 
-.jp:before {
+.selected-lang.jp::before {
     background-image: url(https://flagcdn.com/32x24/jp.png);
 }
 
-.cn:before {
+.selected-lang.cn::before {
     background-image: url(https://flagcdn.com/32x24/cn.png);
 }
 
-.kr:before {
+.selected-lang.kr::before {
     background-image: url(https://flagcdn.com/32x24/kr.png);
 }
 
-.tr:before {
+.selected-lang.tr::before {
     background-image: url(https://flagcdn.com/32x24/tr.png);
 }
 
-.de:before {
+.selected-lang.de::before {
     background-image: url(https://flagcdn.com/32x24/de.png);
 }
 

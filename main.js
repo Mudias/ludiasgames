@@ -157,8 +157,7 @@ function setLanguage(lang) {
     featuresEl.innerHTML = translations[lang].features;
     featuresBodyEl.innerHTML = translations[lang].featuresBody;
 
-    document.getElementById("features").innerHTML = translations[lang].features;
-    selectedLangEl.style.backgroundImage = `url(https://flagcdn.com/32x24/${lang}.png)`;
+    selectedLangEl.className = `selected-lang ${lang}`;
     localStorage.setItem("lang", lang); // remember language
 }
 
