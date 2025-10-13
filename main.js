@@ -22,7 +22,7 @@ const translations = {
             <br>Can you figure out what?</li>
             <ul>
             `,
-        allAssetsHref: "AllAssets.zip",
+        allAssetsHref: "AllAssets_en.zip",
         screenshotsHref:"Screenshots.zip",
         logosHref: "Logos.zip",
         steamCapsuleHref: "SteamCapsule.zip",
